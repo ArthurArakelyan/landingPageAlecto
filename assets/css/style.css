@@ -12,6 +12,9 @@
 .rregular {
     font-family: 'Raleway Regular';
 }
+.rlight {
+    font-family: 'Raleway Light';
+}
 .pnlight {
     font-family: 'Proxima Nova Light';
 }
@@ -28,6 +31,13 @@
 .home__wrapper {
     display: flex;
     align-items: flex-start;
+    justify-content: center;
+    width: 1360px;
+    margin: 0 auto;
+}
+.opinions__wrapper {
+    display: flex;
+    align-items: center;
     justify-content: center;
     width: 1360px;
     margin: 0 auto;
@@ -181,7 +191,7 @@ header {
 }
 .about__subheading {
     color: #87949E;
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 42px;
 }
 .about__services {
@@ -226,7 +236,7 @@ header {
     text-align: center;
 }
 .about__service_subheading {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.667;
     color: #87949E;
     margin-top: 58px;
@@ -247,4 +257,176 @@ header {
 .about__btn a:hover {
     background-color: #17DAA3;
     color: white;
+}
+
+/*
+*** photo
+*/
+
+.photo {
+    padding: 165px 0;
+    background-color: #F9F9FA;
+}
+.photo__content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.photo__text {
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.photo__heading {
+    font-size: 60px;
+    color: #576671;
+}
+.photo__subheading {
+    font-size: 18px;
+    color: #87949E;
+    line-height: 2;
+    margin-top: 60px;
+}
+.photo__btn {
+    margin-top: 77px;
+}
+.photo__btn a {
+    font-size: 14px;
+    padding: 10px 45px;
+    border: 2px #17DAA3 solid;
+    color: black;
+    border-radius: 25px;
+    transition: background-color .4s ease-in-out, color .3s ease-in-out;
+}
+.photo__btn a:hover {
+    background-color: #17DAA3;
+    color: white;
+}
+
+/*
+*** mac
+*/
+
+
+.mac {
+    background-color: white;
+}
+.mac__content {
+    justify-content: flex-start;
+}
+
+/*
+*** opinions
+*/
+
+.opinions {
+    padding: 187px 0;
+    background-image: url(../media/images/photoBackground.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.opinions__content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.opinions__heading {
+    color: white;
+    font-size: 30px;
+    margin-top: 46px;
+}
+.opinions__heading span {
+    color: #17DAA3;
+}
+.opinions__subheading {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.302);
+    margin-top: 46px;
+}
+.opinions__bullets {
+    margin-top: 80px;
+}
+
+/*
+*** services
+*/
+
+.services {
+    padding: 108px 0;
+    background-color: #F9F9FA;
+}
+.services__content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.services__heading {
+    position: relative;
+    font-size: 60px;
+    color: #576671;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 42px;
+}
+.services__heading::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 1px;
+    width: 27px;
+    background-color: #17DAA3;
+}
+.services__subheading {
+    font-size: 18px;
+    color: #87949E;
+    margin-top: 35px;
+}
+.services__about {
+    margin-top: 196px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.services__about_left,
+.services__about_right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.services__service {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.services__service_bottom {
+    margin-top: 124px;
+}
+.service__photo {
+    width: 20%;
+}
+.service__text {
+    width: 80%;
+}
+.service__heading {
+    font-size: 60px;
+    color: #576671;
+}
+.service__subheading {
+    margin-top: 60px;
+    font-size: 18px;
+    color: #87949E;
+    line-height: 2.667;
 }
