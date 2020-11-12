@@ -21,9 +21,6 @@
 .pnregular {
     font-family: 'Proxima Nova Regular';
 }
-.pnbold {
-    font-family: 'Proxima Nova Bold';
-}
 
 /***** wrapper ****/
 
@@ -1213,5 +1210,55 @@ footer {
     }
     .service__text {
         width: 75%;
+    }
+}
+
+@media only screen and (max-height: 670px) {
+    .home__down {
+        margin-top: 80px;
+    }
+}
+
+@media only screen and (max-height: 610px) {
+    .home {
+        padding-top: 180px;
+    }
+}
+
+@media only screen and (max-height: 585px) {
+    .home__down {
+        margin-top: 60px;
+    }
+}
+
+@media only screen and (max-height: 560px) {
+    .home__down {
+        margin-top: 50px;
+    }
+    .home {
+        padding-top: 170px;
+    }
+}
+
+@media only screen and (max-height: 542px) {
+    .home__down {
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-height: 525px) {
+    .home__down {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-height: 482px) {
+    .home {
+        height: 100%;
+        padding: 170px 0 20px 0;
+    }
+    .home__down {
+        display: block !important;
+        margin-top: 120px;
     }
 }
