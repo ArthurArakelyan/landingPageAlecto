@@ -17,14 +17,21 @@
                 <img src="assets/media/images/logo.png" alt="Logo">
                 <nav class="header__nav">
                     <ul class="rbold">
-                        <li><a href="#">home</a></li>
-                        <li><a href="#">about</a></li>
-                        <li><a href="#">work</a></li>
-                        <li><a href="#">services</a></li>
-                        <li><a href="#">blog</a></li>
+                        <li><a href="#home">home</a></li>
+                        <li><a href="#about">about</a></li>
+                        <li><a href="#opinions">work</a></li>
+                        <li><a href="#services">services</a></li>
+                        <li><a href="#tryOur">blog</a></li>
                         <li><button><i class="far fa-search"></i></button></li>
                     </ul>
                 </nav>
+                <div class="header__burgerMenu">
+                    <button class="header__burgerMenu_btn hamburger hamburger--spin" type="button">
+                        <span class="hamburger-box">
+                          <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+                </div>
             </div>
         </div>
     </header>
@@ -160,7 +167,7 @@
         -->
         <div class="opinions" id="opinions">
             <div class="opinions__wrapper">
-                <i class="home__previous fal fa-chevron-left"></i>
+                <i class="opinions__previous home__previous fal fa-chevron-left"></i>
 
                 <div class="opinions__content">
                     <img src="assets/media/images/personPhoto.png" alt="" class="person__photo">
@@ -179,13 +186,13 @@
                     </div>
                 </div>
 
-                <i class="home__next fal fa-chevron-right"></i>
+                <i class="opinions__next home__next fal fa-chevron-right"></i>
             </div>
         </div>
         <!--
             section 5,, services
         -->
-        <div class="services" id="servies">
+        <div class="services" id="services">
             <div class="wrapper">
                 <div class="services__content">
                     <h2 class="headings services__heading rextralight">
@@ -262,7 +269,7 @@
         <!--
             section 6,, team
         -->
-        <div class="team">
+        <div class="team" id="team">
             <div class="team__content">
                 <h2 class="headings team__heading rextralight">
                     Meet our team
@@ -291,7 +298,7 @@
         <!--
             section 7,, price
         -->
-        <div class="price">
+        <div class="price" id="price">
             <div class="wrapper">
                 <div class="price__content">
                     <h2 class="headings price__heading rextralight">
@@ -400,7 +407,7 @@
         <!--
             section 8,, map
         -->
-        <div class="map">
+        <div class="map" id="map">
             <div class="wrapper">
                 <div class="map__content">
                     <div class="map__text">
@@ -427,20 +434,20 @@
         <!--
             section 9,, try our
         -->
-        <div class="tryOur">
+        <div class="tryOur" id="tryOur">
             <div class="wrapper">
                 <div class="tryOur__content">
                     <h2 class="tryOur__heading rextralight">
                         Try our <span class="rbold">PSD template</span> on symu.co
                     </h2>
-                    <div class="tryOur__btn">
+                    <div class="tryOur__btn rbold">
                         <a href="#">symo.co/freebies</a>
                     </div>
                 </div>
             </div>
         </div>
     </main>
-    <footer>
+    <footer id="footer">
         <div class="wrapper">
             <div class="footer__content">
                 <img src="assets/media/images/allRightsReserved.png" alt="A">
